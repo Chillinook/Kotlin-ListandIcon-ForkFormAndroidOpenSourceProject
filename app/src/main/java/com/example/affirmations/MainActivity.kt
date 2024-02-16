@@ -75,7 +75,7 @@ fun AffirmationsCard(aff: Affirmation ) {
             contentDescription = stringResource(id = aff.stringResourceId ),
             contentScale = ContentScale.Crop,
             modifier = Modifier
-//                .fillMaxWidth()
+                .fillMaxWidth()
         )
         Text(
             text = stringResource(id = aff.stringResourceId ),
